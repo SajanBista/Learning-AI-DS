@@ -4,8 +4,9 @@ name: Run Jupyter Notebooks
 on:
   push:
     paths:
-      - 'notebooks/**.ipynb'
-      - '.github/workflows/ci.yml'
+      - '**.ipynb'
+      - '**/ci.yml'
+      - '**/requirements.txt'
   pull_request:
 
 jobs:
